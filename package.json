@@ -1,0 +1,23 @@
+{
+    "name": "shpora-task-2020",
+    "version": "1.0.0",
+    "description": "",
+    "main": "../index.mjs",
+    "scripts": {
+        "test": "mocha ./tests",
+        "start": "node ./game/index.mjs"
+    },
+    "author": "Samokhina Veronika, Kontur",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.1.3"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "arrowParens": "avoid"
+    }
+}
